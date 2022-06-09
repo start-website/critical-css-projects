@@ -68,7 +68,7 @@ class AddTokenTestController extends Controller
     public function checkRecaptcha($recaptcha_response)
     {
         $recaptcha_url = 'https://www.google.com/recaptcha/api/siteverify';
-        $recaptcha_secret = '6LeeSMsfAAAAAND_d3_hDhd72NjeD6RFMuDwrhPf';
+        $recaptcha_secret = '****';
 
         if (!$recaptcha_response) {
             $this->valid = false;
