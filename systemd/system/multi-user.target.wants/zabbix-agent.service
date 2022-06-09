@@ -1,0 +1,14 @@
+[Unit]
+Description=Zabbix Agent
+After=network.target
+
+[Service]
+Type=simple
+User=zabbix
+Group=zabbix
+RuntimeDirectory=zabbix
+ExecStart=/usr/sbin/zabbix_agentd --foreground
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

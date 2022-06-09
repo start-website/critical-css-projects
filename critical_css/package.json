@@ -1,0 +1,23 @@
+{
+  "name": "critical_css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connect-timeout": "^1.9.0",
+    "cors": "^2.8.5",
+    "critical": "^4.0.1",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "helmet": "^5.0.2",
+    "postcss": "^8.4.14",
+    "postcss-discard": "^2.0.0",
+    "postcss-url": "^10.1.3"
+  }
+}
